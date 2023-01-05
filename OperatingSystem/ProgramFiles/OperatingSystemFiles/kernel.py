@@ -6,8 +6,12 @@ import shutil
 class System():
     
     
-    #make, remove, rename, move folder
+    #rename, move folder
     #make, remove, rename, move, file
+    
+    
+    
+    
     
     #make folder
     def makeFolder(path):
@@ -21,10 +25,12 @@ class System():
     def renameFolder():
         print("Currently Not Functional")    
         
-
-        
     def moveFolder():
         print("Currently Not Functional")    
+    
+    
+    
+    
     
     #change directory
     #list directory

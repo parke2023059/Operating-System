@@ -33,7 +33,18 @@ class System():
     
     
     #change directory
-    #list directory
-    #clear 
-    #exit
+    def changeDirectory(path):
+        os.chdir(path)
+        print(os.listdir())
     
+    #list directory'
+    def listDirectory():
+        print(os.listdir())
+    
+    #clear
+    def clear():
+        os.system('cls')
+     
+     
+    #exit
+   

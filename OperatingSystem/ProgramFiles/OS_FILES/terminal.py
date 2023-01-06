@@ -19,7 +19,8 @@ class Terminal(Cmd):
 
 
 
-    
+    def do_list(self, arg):
+        print(os.listdir())
     
     
 

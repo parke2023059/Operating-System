@@ -17,8 +17,7 @@ class Terminal(Cmd):
     def do_nf(self, path):
         os.system("echo > " + path)
 
-    def do_rf(self, path):
-        os.rmdir(path)
+
 
     
     
